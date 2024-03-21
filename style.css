@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(252, 242, 209);
+    background-size: cover;
+}
+header{
+    font-family: "century gothic";
+    justify-content: center;
+    position: relative;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.container{
+font-family:"century gothic";
+display: block;
+font-weight: bold;
+text-align: center;
+}
+img{
+    width: 200px;
+    height: 250px;
+    transition: transform 75ms ease; 
+}
+.img{
+    background-color:rgb(9, 42, 86);
+}
+.container:hover{
+    transform: translate(8px, -8px);
+
+}
+.img-right{
+    position: relative;
+    left:1000px
+}
+#right{
+    font-family:"century gothic" ;
+}
